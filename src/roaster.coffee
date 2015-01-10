@@ -3,7 +3,7 @@
 Fs = require 'fs'
 Path = require 'path'
 _ = require 'underscore'
-marked = require 'marked'
+marked = require Path.join(Path.dirname(__dirname), 'node_modules/marked/lib/marked')
 emoji = require 'emoji-images'
 taskLists = require 'task-lists'
 cheerio = require 'cheerio'

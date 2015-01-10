@@ -1,6 +1,5 @@
 test/markdown.html
 npm-debug.log
-/lib/*.js
 /node_modules
 *.log
 *~
